@@ -1,0 +1,145 @@
+body {
+	height: 100%;
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+* {
+	box-sizing: border-box;
+}
+
+
+
+
+.container {
+	margin-right: 30px;
+	margin-left: 30px;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/me2.jpg");
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: left;
+  position: absolute;
+  color: white;
+  top: 100px;
+  left: 50px;
+}
+
+
+
+.content-title {
+	width: 75%;
+}
+.content-heading {
+	margin-top: 15px;
+	border-bottom: 3px solid lightgray;
+}
+
+.content-details {
+	margin-bottom: 40px;
+	width: 75%;
+	padding-left: 15px;
+}
+
+.date {
+	float: right;
+	font-size: 1em;
+}
+
+.topic {
+	margin-top: 50px;
+	margin-right: 50px;
+	padding-left: 15px;
+}
+
+a {
+	text-decoration: none;
+	color: turquoise;
+}
+
+
+
+h5 {
+	margin: 0;
+	padding: 0;
+	font-size: 1em;
+}
+
+h4 {
+	margin-bottom: 10px;
+	font-size: 1em;
+}
+
+h3 {
+	font-size: 1.5em;
+	padding-bottom: .5em;
+	margin-bottom: 0;
+}
+
+h2 {
+	color: turquoise;
+	font-size: 2em;
+}
+
+h1 {
+	font-size: 2.5em;
+}
+
+
+#education, #experience {
+	float: left;
+}
+
+.skills {
+	margin: 0;
+	padding: 0;
+
+}
+
+
+.education {
+	clear: both;
+}
+
+.contact {
+	padding-left: 15px;
+	border-left: 5px solid turquoise;
+}
+
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+
+
+

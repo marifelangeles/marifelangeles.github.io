@@ -147,6 +147,10 @@ h1 {
     h5 {
     	clear: both;
     }
+	.content-details {
+    	min-width: 100%;
+    }
+	
 }
 
 @media only screen and (min-width: 768px) {
@@ -180,6 +184,9 @@ h1 {
     }
     .date {
     	float: right;
+    }
+	.content-details {
+    	min-width: 100%;
     }
 }
 
